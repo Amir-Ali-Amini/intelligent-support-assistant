@@ -1,0 +1,12 @@
+# Runtime dependencies.
+# Versions are conservative lower bounds on current stable major lines;
+# check for newer releases before pinning for production.
+pydantic>=2.6          # typed models + validation (also used as LLM response schema)
+litellm>=1.40          # one interface over 100+ LLM providers
+instructor>=1.3        # validated, auto-retrying structured outputs into Pydantic
+python-dotenv>=1.0     # load configuration from a local .env file
+
+# Optional developer tools:
+# pytest
+# ruff
+# mypy
