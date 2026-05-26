@@ -91,7 +91,7 @@ class RuleBasedReasoner(Reasoner):
                 Intent(
                     department=Department.SALES,
                     summary="Customer is asking about the status of an order.",
-                    order_id=_extract_product_id(email_text),
+                    order_id=_extract_order_id(email_text),
                 )
             )
         if _contains_any(text, _TECHNICAL_CUES):
