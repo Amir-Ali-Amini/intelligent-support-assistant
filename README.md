@@ -5,6 +5,11 @@ support email, figures out which departments it touches, gathers the
 data each part needs from internal (mock) systems, and writes back a
 single, coherent reply.
 
+## Contributors
+
+- Amirhossein Entezari — amir@entezari.org — https://github.com/Amir-Entezari
+- Amirali Amini — amini.core@gmail.com — https://github.com/Amir-Ali-Amini
+
 It is built around the **AI Router + chaining** pattern required by the
 assignment: an orchestrator analyses the email, decides what steps are
 needed, runs a chain of tool calls, and synthesises the result.
